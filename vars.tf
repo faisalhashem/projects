@@ -1,14 +1,16 @@
 variable "location" {
-  default = "East US"
+  default = "East US 2"
 }
 
 variable "resource_group_name" {
   description = "Resource Group Name"
+  default = "jenkins_test_rg"
   type        = string
 }
 
 variable "vm_name" {
   description = "The name of the virtual machine"
+  default = "mytestvm"
   type        = string
 }
 
